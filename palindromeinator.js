@@ -11,9 +11,10 @@ const palindromeinator = word => {
     if (word === reversedWord) { 
         //works cause palindromes are the same front and reversed
         alert(`${ogword} is a palindrome`);
+        console.log("true");
     } else {
         alert(`${ogword} is not a palindrome`);
-
+        console.log("false");
     }
 }
 
